@@ -1,6 +1,9 @@
-pipenv install selenium webdriver_manager pyinstaller
-pipenv run pyinstaller --onefile fecharCaixas.py
 
-dependencias (pip install): 
-    selenium
-    webdriver_manager
+## Instalação
+
+### 1. Instale as Dependências
+
+Certifique-se de ter o `pipenv` instalado para gerenciar o ambiente virtual e as dependências do projeto.
+
+```bash
+pipenv install selenium webdriver_manager pyinstaller
