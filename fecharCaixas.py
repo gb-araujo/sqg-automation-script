@@ -99,7 +99,6 @@ class LicencaManager:
                 return False
         return False
 
-# ... (o restante do código permanece inalterado, exceto pelas classes já modificadas acima)
 class Automacao:
     def __init__(self):
         self.driver = None
@@ -389,7 +388,5 @@ if __name__ == "__main__":
     app = InterfaceGrafica(root, licenca_manager, automacao, admin_manager)
     img = Image.new("RGB", (1, 1), (173, 216, 230))
     icone = ImageTk.PhotoImage(img)
-
-# Remover o ícone da janela (definir um ícone transparente)
     root.iconphoto(True, icone)
     root.mainloop()
